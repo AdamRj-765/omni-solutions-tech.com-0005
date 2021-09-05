@@ -14,11 +14,32 @@
 }
 
 body {
-	font-family: 
+	font-family:
+}
+
+/* GLOBAL */
+.container {
+	width:88%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/* HEADER*/
+header {
+	background:#35424a;
+	color:#ffffff;
+	padding-top:38px;
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
 }
 
 
-# copuright {
-	height: 55px;
+
+
+/* FOOTER */
+.copyright {
+	width:88%;
+	height: 100%;
+	margin:auto;
 	margin-bottom: 0px;
 }
