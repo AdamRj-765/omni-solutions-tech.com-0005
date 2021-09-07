@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 
 /* DESIGN SECTION */
 /* Use this block for DESIGNING your site. */
@@ -14,19 +14,17 @@
 	padding: .2%;
 }
 */
-/* simple version:
-*, *:before, *:after {
-	box-sizing: border-box;
-	border: 1px solid gray;
-	margin: .1%;
-	padding: .1%;
-}
-*/
+
 body {
-	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	/* font-family: Ariel, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.5; */
+	font: 15px/1.5 Ariel, Helvetica, sans-serif;
 	padding:0;
 	margin:0;
-	background-color: #f4f4f4;
+	/* margin: 0px 0px 0px 0px; */
+	background-color:#f4f4f4;
+
 }
 
 /* GLOBAL */
@@ -36,12 +34,7 @@ body {
 	overflow:hidden;
 }
 
-ul {
-	margin:0;
-	padding:0;
-}
-
-/* HEADER */
+/* HEADER*/
 header {
 	background:#35424a;
 	color:#ffffff;
@@ -53,41 +46,35 @@ header {
 header a {
 	color:#ffffff;
 	text-decoration:none;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	font-size:16px;
+}
+
+header ul {
+	margin:0;
+	padding:0;
 }
 
 header li {
 	float:left;
 	display:inline;
 	padding: 0 20px 0 20px;
+
 }
 
 header #branding {
 	float:left;
+
 }
 
 header #branding h1 {
 	margin:0;
 }
+
 header nav {
 	float:right;
 	margin-top:10px;
 }
-
-header .highlight, header .current a {
-	color:#e8491d;
-	font-weight:bold;
-
-}
-
-header a .hover {
-	color:#cccccc;
-}
-
-
-
-
 
 
 
