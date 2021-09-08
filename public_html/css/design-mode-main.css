@@ -9,7 +9,7 @@
 }
 */
 
-/* 
+/*
 *, *:before, *:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -31,5 +31,45 @@
 	border: 1px solid gray;
 	margin: .2%;
 	padding: .2%;
+}
+*/
+
+
+
+/* DESIGN SECTION */
+/* Use this block for DESIGNING your site. */
+/* Un-comment this selector out to use design mode */
+
+/*
+*, *:before, *:after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid gray;
+	margin: .2%;
+	padding: .2%;
+}
+
+/* simple version:
+*, *:before, *:after {
+	box-sizing: border-box;
+	border: 1px solid gray;
+	margin: .2%;
+	padding: .2%;
+}
+*/
+
+/*
+* { -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid gray;
+}
+*/
+
+/* simplest version
+* { -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 */
