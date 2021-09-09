@@ -3,40 +3,15 @@
 /* DESIGN SECTION */
 /* Use this block for DESIGNING your site. */
 /* Un-comment this selector out to use design mode */
-
-/*
+/* simplest version
 *, *:before, *:after {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 1px solid gray;
-	margin: .2%;
-	padding: .2%;
-}
-
-/* simple version:
-*, *:before, *:after {
-	box-sizing: border-box;
-	border: 1px solid gray;
-	margin: .2%;
-	padding: .2%;
+	border: 0px solid gray;
 }
 */
 
-/*
-* { -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border: 1px solid gray;
-}
-*/
-
-/* simplest version
-* { -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-*/
 
 body {
 	font: 15px/1.5 Arial, Helvetica, sans-serif;
@@ -97,9 +72,12 @@ header .highlight, header .current a {
 
 }
 
-header a .hover {
+header a:hover {
 	color:#cccccc;
+	font-weight:bold;
 }
+
+/* SHOWCASE */
 
 
 
