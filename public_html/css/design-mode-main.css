@@ -1,0 +1,75 @@
+/* Use this for regular viewing of the site */
+/* Comment the below block to use the design mode below */
+/* simple version:
+*, *:before, *:after {
+	box-sizing: border-box;
+	border: 1px solid gray;
+	margin: .2%;
+	padding: .2%;
+}
+*/
+
+/*
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	/*padding: 0;
+	margin: 0;
+}
+*/
+
+/*
+
+/* Use this block for designing your site. */
+/* Uncomment it out to use design mode */
+/*
+*, *:before, *:after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid gray;
+	margin: .2%;
+	padding: .2%;
+}
+*/
+
+
+
+/* DESIGN SECTION */
+/* Use this block for DESIGNING your site. */
+/* Un-comment this selector out to use design mode */
+
+/*
+*, *:before, *:after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid gray;
+	margin: .2%;
+	padding: .2%;
+}
+
+/* simple version:
+*, *:before, *:after {
+	box-sizing: border-box;
+	border: 1px solid gray;
+	margin: .2%;
+	padding: .2%;
+}
+*/
+
+/*
+* { -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid gray;
+}
+*/
+
+/* simplest version
+* { -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*/
